@@ -1,0 +1,14 @@
+# Local working agreement - not part of the pipeline
+CLAUDE.md
+
+# Step-by-step working notes - private, not part of the app
+notes/
+
+# Node dependencies - reinstalled from package.json, never committed
+node_modules/
+
+# npm debug logs
+npm-debug.log*
+
+# Environment variables, if we ever add any
+.env
