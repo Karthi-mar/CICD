@@ -1,4 +1,4 @@
-variable "project id"{
+variable "project_id"{
     description = "GCP project id"
     type = string
 }
@@ -30,5 +30,5 @@ variable "github_repo" {
 variable "deployer_sa_id" {
     description = "Account ID for the service account github actions will act as"
     type = string 
-    default = "github-actions-deployer
+    default = "github-actions-deployer"
 }
