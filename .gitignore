@@ -12,3 +12,12 @@ npm-debug.log*
 
 # Environment variables, if we ever add any
 .env
+
+
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfstate.*
+terraform/terraform.tfvars
+
+
