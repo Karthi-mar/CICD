@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.send(`
     <h1>🚀 My DevOps Web App</h1>
-    <p>This app was deployed automatically!</p>
+    <p>This app updates itself automatically!</p>
     <p>Current time: ${new Date().toLocaleString()}</p>
     <p>Total requests: ${requestCount}</p>
   `);
