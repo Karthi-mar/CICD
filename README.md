@@ -1,4 +1,4 @@
-# CI/CD Pipeline: Node.js + Docker + GitHub Actions + Cloud Run
+<img width="1865" height="507" alt="Screenshot 2026-08-20 185144" src="https://github.com/user-attachments/assets/4235cb48-8184-4e72-a126-b5e047e05966" /># CI/CD Pipeline: Node.js + Docker + GitHub Actions + Cloud Run
 
 A small Express web app, automatically tested, containerized, and deployed to
 Google Cloud Run on every push to `main` — via GitHub Actions and Terraform.
@@ -11,7 +11,8 @@ principal key with keyless Workload Identity Federation.
 
 https://my-devops-webapp-ulniklxtsq-el.a.run.app
 
-(Note: this project's cost-cleanup script may have been run since — see below.)
+<img width="1865" height="507" alt="Screenshot 2026-08-20 185144" src="https://github.com/user-attachments/assets/9cea31df-322a-45b6-92ea-adfe3f3c750c" />
+
 
 ## Architecture
 
