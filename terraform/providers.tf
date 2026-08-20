@@ -1,6 +1,6 @@
 terraform {
     required_version = ">= 1.5.0"
-    required_provider {
+    required_providers {
         google = {
             source = "hashicorp/google"
             version = "~> 5.0"
@@ -9,6 +9,6 @@ terraform {
 }
 
 provider "google" {
-    project_id = var.project_id
+    project = var.project_id
     region = var.region
 }
