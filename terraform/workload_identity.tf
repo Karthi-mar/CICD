@@ -10,10 +10,10 @@ resource "google_service_account" "github_deployer" {
 
 #Workload identity pool
 resource "google_iam_workload_identity_pool" "github_pool" {
-    project = var.project
+    project = var.project_id
     workload_identity_pool_id = "github-actions-pool"
     display_name = "GithubActions pool"
     description = "pool for Github Actions OIDC identities"
 
-    depends_on = [google_projects_service.iam, google_project_service.iamcredentials]
+    depends_on = [google_project_service.iam, google_project_service.iamcredentials]
 }
