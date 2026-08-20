@@ -11,15 +11,15 @@ variable "region"{
 
 variable "service_name" {
     description = "Name of the cloud run service"
-    type =  string 
-    default = "devops-webapp"
+    type =  string
+    default = "my-devops-webapp"
 }
 
 variable "repository_id" {
     description = "name of the artifact repository"
     type = string
-    default = "webapp-images"
-}   
+    default = "my-devops-webapp"
+}
 
 variable "github_repo" {
     description = "owner/repo allowed to deploy via workforce identity federation"

@@ -23,5 +23,17 @@ resource "google_project_service" "iamcredentials" {
     disable_on_destroy = false
 }
 
+resource "google_project_service" "cloudresourcemanager" {
+    project = var.project_id
+    service = "cloudresourcemanager.googleapis.com"
+    disable_on_destroy = false
+}
+
+resource "google_project_service" "sts" {
+    project = var.project_id
+    service = "sts.googleapis.com"
+    disable_on_destroy = false
+}
+
 
 
