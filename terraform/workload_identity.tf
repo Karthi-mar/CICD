@@ -19,7 +19,7 @@ resource "google_iam_workload_identity_pool" "github_pool" {
 }
 
 #workload identity provider
-resource "google_iam_workload_identity_pool_provider" " github_provider" {
+resource "google_iam_workload_identity_pool_provider" "github_provider" {
     project = var.project_id
     workload_identity_pool_id = google_iam_workload_identity_pool.github_pool.workload_identity_pool_id
     workload_identity_pool_provider_id = "github-provider"
